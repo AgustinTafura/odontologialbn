@@ -143,11 +143,7 @@ const Navbar = () => {
                                 </ul>
                             </nav>
                         </div>
-                        {/* <nav class="site-navigation position-relative text-right" role="navigation"> */}
-                            {/* <ul class="site-menu main-menu site-menu-dark js-clone-nav mr-auto d-none d-lg-block"> */}
-
-                            {/* </ul> */}
-                        {/* </nav> */}
+                        
                         <div className="ml-auto">
                             <div className="site-navigation position-relative text-right" role="navigation">
                                 <ul className="site-menu main-menu site-menu-dark js-clone-nav mr-auto d-none d-lg-block">
@@ -168,8 +164,8 @@ const Navbar = () => {
                                 </ul>
                             </div>
                             <a href="/" onClick={toggleMobileMenu}
-                                className="d-inline-block d-lg-none site-menu-toggle js-menu-toggle text-black float-right"><span
-                                    className="icon-menu h3" ></span></a>
+                                className="d-inline-block d-lg-none site-menu-toggle js-menu-toggle text-black float-right">
+                                    <span className="icon-menu h3">23</span></a>
                         </div>
                     </div>
                 </div>
