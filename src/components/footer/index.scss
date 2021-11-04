@@ -1,0 +1,60 @@
+#timetable {
+
+    min-width: 178px;
+    
+    .day {
+        padding-right: 0;
+    }
+
+    .time {
+        text-align: right;
+        padding-left: 0;
+    }
+}
+
+#footer-section {
+    
+        background-color: #394255;
+        color: white;
+        
+
+        h2, h3 {
+            color: white;
+        }
+
+        a {
+            color: var(--secondary);
+            font-weight: 600;
+        }
+
+        .container {
+            position: relative;
+        }
+
+        .section-sub-title, .section-title {
+            @media (max-width: 560px) {
+                text-align: center;
+                justify-content: center;                
+            }
+        }
+
+        #footer-copyright {
+            p {
+                padding-bottom: 0.5rem;
+                margin-bottom: inherit;
+                font-size: 10px;
+                color: white;
+                text-align: center;
+            }
+        }
+}
+
+#map-google {
+
+    bottom: 1.5rem;
+    right: 0;
+
+    @media (min-width: 992px) { 
+        position: absolute;
+     }
+}

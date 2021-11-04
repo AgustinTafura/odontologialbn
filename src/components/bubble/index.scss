@@ -1,0 +1,13 @@
+.flotante {
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+
+    &:hover {
+        path:first-of-type {
+            fill: #5f9aa5;
+        }
+    }
+}
