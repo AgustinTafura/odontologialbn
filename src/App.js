@@ -26,7 +26,8 @@ function App() {
 	AOS.init({
 	duration: 800,
 	easing: 'slide',
-	once: true
+	once: true,
+	// disable: 'mobile'
 	});
 
 	return (
