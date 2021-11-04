@@ -2,6 +2,7 @@
   "name": "odontologialbn.com.ar",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://agustintafura.github.io/odontologialbn/",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.15.4",
     "@googlemaps/react-wrapper": "^1.1.10",
@@ -25,6 +26,8 @@
     "web-vitals": "^1.0.1"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -49,6 +52,7 @@
     ]
   },
   "devDependencies": {
+    "gh-pages": "^3.2.3",
     "sass": "^1.43.4"
   }
 }
