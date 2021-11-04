@@ -34,7 +34,6 @@ const Navbar = () => {
 
         siteSticky();
 
-
         window.addEventListener('scroll', (e, a)=>{
             if(window.scrollY > 100){
                 $('.js-sticky-header').addClass('shrink');
@@ -129,7 +128,7 @@ const Navbar = () => {
                         <div className="site-logo">
 
                             <a href="index.html"><img style={{width:'10rem'}}
-                                    src={`${process.env.PUBLIC_URL}/${windowScrollY !== 0 ? 'img/logo_lbn_b.png': 'img/logo_lbn_w.png'}`}
+                                    src={`${process.env.PUBLIC_URL}/${windowScrollY < 1 ? 'img/logo_lbn_w.png': 'img/logo_lbn_b.png'}`}
                                     alt='LBNodontologia Consultorio odontologico LBN - Villa Crespo, CABA. Argentina'></img></a>
                         </div>
 

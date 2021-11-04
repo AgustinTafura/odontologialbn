@@ -18,7 +18,7 @@ import Navbar from './components/navBar';
 import Bubble from './components/bubble';
 
 import { GlobalProvider } from './context/GlobalContext';
-import Services2 from './components/services2';
+import Technology from './components/technology';
 
 
 function App() {
@@ -39,8 +39,7 @@ function App() {
 				<Home/>
 				<Us/>
 				<Work/>
-				{/* <Services/> */}
-				<Services2/>
+				<Technology/>
 				<Contact/>
 				<Footer/>
 				<Bubble/>

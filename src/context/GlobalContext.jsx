@@ -5,7 +5,7 @@ export const GlobalContext = createContext();
 export const GlobalProvider = ({ children }) => {
 
     const [windowWidth, setWindowWidth] = useState(window.innerWidth)
-    const [windowScrollY, setWindowScrollY] = useState(window.innerWidth)
+    const [windowScrollY, setWindowScrollY] = useState(window.scrollY)
 
     useEffect(() => {
         window.addEventListener('resize', ()=>{setWindowWidth(window.innerWidth)})
