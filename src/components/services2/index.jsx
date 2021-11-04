@@ -19,7 +19,7 @@ const Services = () => {
                                     <ul className="nav nav-tabs justify-content-center" id="aboutTab" role="tablist" data-aos="fade-up" data-aos-duration="1000">
                                         {
                                             technology.map((tech,index)=>{return(
-                                                <li className="nav-item" role="presentation">
+                                                <li key={index+tech} className="nav-item" role="presentation">
                                                     <a className={`nav-link ${index === 0 && 'active'}`} id={`${tech.code}-tab`} data-toggle="tab" href={`#${tech.code}`} role="tab" aria-controls={`${tech.code}`} aria-selected="true">{tech.name}</a>
                                                 </li>
                                             )})
@@ -29,7 +29,7 @@ const Services = () => {
                                 <div className="tab-content" id="aboutTab" data-aos="fade-up" data-aos-duration="1500">
                                     {
                                         technology.map((tech,index)=>{return(
-                                            <div className={`service-box tab-pane fade show ${index === 0 && 'active'}`} id={tech.code}>
+                                            <div key={tech+index} className={`service-box tab-pane fade show ${index === 0 && 'active'}`} id={tech.code}>
                                                 <div className="row">
                                                 <div className="col-lg-6">
                                                     <img loading="lazy" className="img-fluid" src={`${process.env.PUBLIC_URL}/img/tech/${tech.img}`} alt={`${tech.name} - Tecnologia - Servicio odontologico - LBN odontología`}/>
@@ -41,7 +41,7 @@ const Services = () => {
                                                         </div>
                                                         <div className="text">
                                                             {
-                                                                tech.parraphs.map((parraph, index)=><p>{parraph}</p>)
+                                                                tech.parraphs.map((parraph, index)=><p key={parraph+index}>{parraph}</p>)
                                                             }
                                                         </div>
                                                     </div>

@@ -248,7 +248,7 @@ module.exports = {
       code: "ai",
       img: "ai.jpg",
       parraphs: [
-        "Estos procedimientos tienen la finalidad de mejorar la forma, tamaño y color de los dientes enarmonía con tu sonrisa.",
+        "Estos procedimientos tienen la finalidad de mejorar la forma, tamaño y color de los dientes en armonía con tu sonrisa.",
         "Contamos con equipamiento avanzado para planificar y recrerar digitalmente tu sonrisa, que nos ayuda a visualizar como quedará tu sonrisa luego del tratamiento elegido.",
       ],
     },
@@ -258,7 +258,7 @@ module.exports = {
       img: "id3d.jpg",
       parraphs: [
         "Utilizamos una impresora 3D, como complemento ideal para el escaner intraoral.", 
-        "A partir de este equipo imprimimos el modelo de tu boca, no solo para el diagnóstico, sino también para confeccionar los alineadores de ortodoncia y realizar el diseño digital de sonrisa",
+        "Luego del escaneo imprimimos el modelo de tu boca, tanto para el diagnóstico como también para confeccionar los alineadores de ortodoncia y realizar el diseño digital de sonrisa.",
       ],
     },
     {
@@ -267,7 +267,7 @@ module.exports = {
       img: "ei.jpg",
       parraphs: [
         "La digitalización de tu boca mediante un escaner es el primer paso en tu tratamiento.",
-        "Utilizamos un software de diseño informatico que permite planificar y recrear digitalmente el tratamiento al que se va a someter al paciente.",
+        "Utilizamos un software de diseño informático que permite planificar y recrear digitalmente el tratamiento al que se va a someter al paciente.",
         "Nos brinda un punto de vista mas eficaz y certero para alcanzar los resultados deseados.",
       ],
     },
@@ -276,7 +276,7 @@ module.exports = {
       code: "rd",
       img: "rd.jpg",
       parraphs: [
-        "Esta herramienta nos permite la toma de radiografias en menos de 3 segundos, con menos radiacion y con una incalculable calidad diagnostica.",
+        "Esta herramienta nos permite la toma de radiografías en menos de 3 segundos, con menos radiación y con una incalculable calidad diagnóstica.",
       ],
     },
   ]
