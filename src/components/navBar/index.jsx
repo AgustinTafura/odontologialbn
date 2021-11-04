@@ -143,6 +143,11 @@ const Navbar = () => {
                                 </ul>
                             </nav>
                         </div>
+                        {/* <nav class="site-navigation position-relative text-right" role="navigation"> */}
+                            {/* <ul class="site-menu main-menu site-menu-dark js-clone-nav mr-auto d-none d-lg-block"> */}
+
+                            {/* </ul> */}
+                        {/* </nav> */}
                         <div className="ml-auto">
                             <div className="site-navigation position-relative text-right" role="navigation">
                                 <ul className="site-menu main-menu site-menu-dark js-clone-nav mr-auto d-none d-lg-block">

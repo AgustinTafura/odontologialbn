@@ -17,7 +17,7 @@ const Footer = () => {
         <footer className="site-section section-2 pb-0" id="footer-section">
             <div className="container">
                 <div className="row">
-                    <div className="col-lg-6 mb-5">
+                    <div className="col-lg-6 mb-1">
                         <span className="section-sub-title d-block">Canales de atención</span>
                         <h2 className="section-title">Contacto</h2>
                     </div>
@@ -111,8 +111,8 @@ const Footer = () => {
 
                         </div>
                     </div>
-                    <div id="map-google" className="mt-3 col-12 col-lg-9">
-                        <iframe width="100%" height="220" frameBorder="0" style={{border:"0"}}
+                    <div id="map-google" className="mt-3 col-12 ">
+                        <iframe width="100%" height="120" frameBorder="0" style={{border:"0"}}
                             title='LBN Odontologia direccion mapa consultorio donotologico - Villa Crespo, CABA, capital federal, Buenos Aires, Argentina'
                             src={`https://www.google.com/maps/embed/v1/place?q=place_id:ChIJozmiOnLKvJURe-7Uv1aODw0&key=${process.env.REACT_APP_GOOGLE_API_KEY}`}
                             allowFullScreen
