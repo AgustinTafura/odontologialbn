@@ -137,8 +137,8 @@ const Navbar = () => {
                                 <ul className="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
                                     <li><a href="#team-section" className="nav-link">Equipo</a></li>
                                     <li><a href="#specialties-section" className="nav-link">Especialidades</a></li>
-                                    <li><a href="#process-section" className="nav-link">Process</a></li>
-                                    <li><a href="#services-section" className="nav-link">Services</a></li>
+                                    <li><a href="#technology-section" className="nav-link">Tecnología</a></li>
+                                    <li><a href="#contact-section" className="nav-link">Contacto</a></li>
                                 </ul>
                             </nav>
                         </div>

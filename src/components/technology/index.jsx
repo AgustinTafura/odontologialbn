@@ -5,7 +5,7 @@ import {technology} from '../../data'
 const Technology = () => {
 
     return (
-        <div className="site-section" id="services-section">
+        <div className="site-section" id="technology-section">
             <section className="service-tab-section section">
                 <div className="outer-box clearfix">
                     <div className="container">

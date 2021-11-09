@@ -899,6 +899,10 @@ h5,
 	color: #000;
 	display: inline-block;
 	text-decoration: none !important;
+
+	&:hover {
+		color: #505e7a;
+	}
 }
 
 .sticky-wrapper.is-sticky .site-navbar .site-menu>li>a:hover {
@@ -1163,16 +1167,16 @@ h5,
 	background-color: #505e7a;
 }
 
-.footer-section {
+.contact-section {
 	padding: 7em 0;
 	background-color: #fafafa;
 }
 
-.footer-section p {
+.contact-section p {
 	font-size: 1rem;
 }
 
-.footer-section h3 {
+.contact-section h3 {
 	font-size: .9rem;
 	letter-spacing: .1rem;
 	text-transform: uppercase;
@@ -1181,7 +1185,7 @@ h5,
 	font-weight: 900;
 }
 
-.footer-section .footer-links li {
+.contact-section .footer-links li {
 	margin-bottom: 10px;
 }
 

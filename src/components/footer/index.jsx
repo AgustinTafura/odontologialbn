@@ -14,7 +14,7 @@ const Footer = () => {
     }, [])
 
     return (        
-        <footer className="site-section section-2 pb-0" id="footer-section">
+        <footer className="site-section section-2 pb-0" id="contact-section">
             <div className="container">
                 <div className="row">
                     <div className="col-lg-6 mb-1">

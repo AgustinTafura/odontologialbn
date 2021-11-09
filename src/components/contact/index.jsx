@@ -5,7 +5,7 @@ const Contact = () => {
 
 
     return (
-        <div className="site-section" id="contact-section">
+        <div className="site-section" id="custom-section">
             <div className="container">
 
                 <div className="row justify-content-center">
