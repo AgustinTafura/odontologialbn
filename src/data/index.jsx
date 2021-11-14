@@ -15,20 +15,20 @@ module.exports = {
       link: "especialidades",
       href: "#especialidades"
     },
-    // {
-    //   title:"Test",
-    //   description: "test tes",
-    //   image: "team.jpg",
-    //   link: "tecnología",
-    //   href: "#tecnologia"
-    // },
-    // {
-    //   title: "Tecnología de última Generación",
-    //   description: "Estamos en constante capacitación y adquisición de nuevas tecnologías para brindarte un servicio de calidad.",
-    //   image: "home.jpg",
-    //   link: "",
-    //   href: ""
-    // }
+    {
+      title:"Test",
+      description: "test tes",
+      image: "team.jpg",
+      link: "tecnología",
+      href: "#tecnologia"
+    },
+    {
+      title: "Tecnología de última Generación",
+      description: "Estamos en constante capacitación y adquisición de nuevas tecnologías para brindarte un servicio de calidad.",
+      image: "home.jpg",
+      link: "",
+      href: ""
+    }
   ],
 
   treatmentsList : [

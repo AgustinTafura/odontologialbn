@@ -27,7 +27,7 @@ const Footer = () => {
                         <div className="process p-3">
                             <span className="number"><i className="far fa-clock" /></span>
                             <div>
-                                <span className="flaticon-glasses display-4 text-primary mb-4 d-inline-block"></span>
+                                {/* <span className="flaticon-glasses display-4 text-primary mb-4 d-inline-block"></span> */}
                                 <h3>Horario</h3>
                                 <table id="timetable" className="table col-sm-8 col-md-6 mb-0">
                                     <thead>
@@ -70,7 +70,7 @@ const Footer = () => {
                         <div className="process p-3">
                             <span className="number"><i className="fas fa-mobile-alt" /></span>
                             <div>
-                                <span className="flaticon-vector display-4 text-primary mb-4 d-inline-block"></span>
+                                {/* <span className="flaticon-vector display-4 text-primary mb-4 d-inline-block"></span> */}
                                 <h3>Teléfono</h3>
                                 <div>
                                     Solicitá tu Turno <br />
@@ -88,7 +88,7 @@ const Footer = () => {
                         <div className="process p-3">
                             <span className="number"><i className="fas fa-map-marker-alt" /></span>
                             <div>
-                                <span className="flaticon-monitor display-4 text-primary mb-4 d-inline-block"></span>
+                                {/* <span className="flaticon-monitor display-4 text-primary mb-4 d-inline-block"></span> */}
                                 <h3>Dirección</h3>
                                 <address>
                                     Av. Corrientes 4924 - Piso 6<br />
@@ -104,7 +104,7 @@ const Footer = () => {
                         <div className="process p-3">
                             <span className="number"><i className="far fa-envelope" /></span>
                             <div>
-                                <span className="flaticon-monitor display-4 text-primary mb-4 d-inline-block"></span>
+                                {/* <span className="flaticon-monitor display-4 text-primary mb-4 d-inline-block"></span> */}
                                 <h3>Mail</h3>
                                 <p>lbnconsultorio@gmail.com</p>
                             </div>
