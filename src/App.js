@@ -8,7 +8,6 @@ import "slick-carousel/slick/slick-theme.css";
 import './App.scss';
 import { BrowserRouter } from 'react-router-dom';
 import HelmetLBN from './components/helmetLBN';
-import Contact from './components/contact';
 
 import Footer from './components/footer';
 import Work from './components/work';
@@ -40,7 +39,6 @@ function App() {
 				<Us/>
 				<Work/>
 				<Technology/>
-				<Contact/>
 				<Footer/>
 				<Bubble/>
 			</GlobalProvider>

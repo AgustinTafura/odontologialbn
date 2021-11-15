@@ -163,8 +163,8 @@ const Navbar = () => {
                                 </ul>
                             </div>
                             <a href="/" onClick={toggleMobileMenu}
-                                className="d-inline-block d-lg-none site-menu-toggle js-menu-toggle text-black float-right">
-                                    <span className="icon-menu h3" style={{color:`${process.env.PUBLIC_URL}/${windowScrollY < 1 ? 'white': 'black'}`}}></span></a>
+                                className={`d-inline-block d-lg-none site-menu-toggle js-menu-toggle ${windowScrollY < 1 ? 'text-white': 'text-black'}  float-right`}>
+                                    <span className="icon-menu h3"></span></a>
                         </div>
                     </div>
                 </div>
