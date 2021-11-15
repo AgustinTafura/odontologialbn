@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/odontologialbn/static/css/main.b2699b04.chunk.css",
-    "main.js": "/odontologialbn/static/js/main.d6d99465.chunk.js",
-    "main.js.map": "/odontologialbn/static/js/main.d6d99465.chunk.js.map",
-    "runtime-main.js": "/odontologialbn/static/js/runtime-main.de516878.js",
-    "runtime-main.js.map": "/odontologialbn/static/js/runtime-main.de516878.js.map",
+    "main.css": "/odontologialbn/static/css/main.7c044cda.chunk.css",
+    "main.js": "/odontologialbn/static/js/main.c57ad0cd.chunk.js",
+    "main.js.map": "/odontologialbn/static/js/main.c57ad0cd.chunk.js.map",
+    "runtime-main.js": "/odontologialbn/static/js/runtime-main.9a1e0eb3.js",
+    "runtime-main.js.map": "/odontologialbn/static/js/runtime-main.9a1e0eb3.js.map",
     "static/css/2.61043849.chunk.css": "/odontologialbn/static/css/2.61043849.chunk.css",
-    "static/js/2.2022abd5.chunk.js": "/odontologialbn/static/js/2.2022abd5.chunk.js",
-    "static/js/2.2022abd5.chunk.js.map": "/odontologialbn/static/js/2.2022abd5.chunk.js.map",
-    "static/js/3.2b0dfab5.chunk.js": "/odontologialbn/static/js/3.2b0dfab5.chunk.js",
-    "static/js/3.2b0dfab5.chunk.js.map": "/odontologialbn/static/js/3.2b0dfab5.chunk.js.map",
+    "static/js/2.f516626b.chunk.js": "/odontologialbn/static/js/2.f516626b.chunk.js",
+    "static/js/2.f516626b.chunk.js.map": "/odontologialbn/static/js/2.f516626b.chunk.js.map",
+    "static/js/3.da9e293c.chunk.js": "/odontologialbn/static/js/3.da9e293c.chunk.js",
+    "static/js/3.da9e293c.chunk.js.map": "/odontologialbn/static/js/3.da9e293c.chunk.js.map",
     "index.html": "/odontologialbn/index.html",
     "static/css/2.61043849.chunk.css.map": "/odontologialbn/static/css/2.61043849.chunk.css.map",
-    "static/css/main.b2699b04.chunk.css.map": "/odontologialbn/static/css/main.b2699b04.chunk.css.map",
-    "static/js/2.2022abd5.chunk.js.LICENSE.txt": "/odontologialbn/static/js/2.2022abd5.chunk.js.LICENSE.txt",
+    "static/css/main.7c044cda.chunk.css.map": "/odontologialbn/static/css/main.7c044cda.chunk.css.map",
+    "static/js/2.f516626b.chunk.js.LICENSE.txt": "/odontologialbn/static/js/2.f516626b.chunk.js.LICENSE.txt",
     "static/media/App.scss": "/odontologialbn/static/media/fa-solid-900.eeccf4f6.woff",
     "static/media/slick-theme.css": "/odontologialbn/static/media/slick.c94f7671.ttf"
   },
   "entrypoints": [
-    "static/js/runtime-main.de516878.js",
+    "static/js/runtime-main.9a1e0eb3.js",
     "static/css/2.61043849.chunk.css",
-    "static/js/2.2022abd5.chunk.js",
-    "static/css/main.b2699b04.chunk.css",
-    "static/js/main.d6d99465.chunk.js"
+    "static/js/2.f516626b.chunk.js",
+    "static/css/main.7c044cda.chunk.css",
+    "static/js/main.c57ad0cd.chunk.js"
   ]
 }
