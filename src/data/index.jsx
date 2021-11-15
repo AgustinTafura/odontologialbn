@@ -11,13 +11,13 @@ module.exports = {
     {
       title:"Todas las Especialidades en LBN",
       description: "Estamos especilizados en todas las áreas odontológicas, ofreciéndote atención multidisciplinaria en el mismo lugar",
-      image: "home.jpg",
+      image: "consultorio.jpg",
       link: "especialidades",
       href: "#especialidades"
     },
     {
-      title:"Test",
-      description: "test tes",
+      title:"Alineadores Invisibles Smile Makers",
+      description: "Son férulas plásticas transparentes que alinean progresivamente tus dientes para ayudarte a lucir una sonrisa perfecta",
       image: "team.jpg",
       link: "tecnología",
       href: "#tecnologia"
@@ -119,7 +119,7 @@ module.exports = {
     {
       name:"Odontología General",
       text : "Realizamos practicas mínimamente invasivas, poniendo énfasis en tu estética y en la prevensión de futuras lesiones, mediante restauraciones estéticas, limpieza y pulido dental.",
-      img: 'img/specialties/sp1.jpg',
+      img: 'img/specialties/general.jpg',
       category: '',
 
       treatments : [
@@ -132,19 +132,9 @@ module.exports = {
       phone_text : ["Hola Dr. Nuñez, me gustaría hacerle una consulta sobre Odontologia General", "Hola Dra. Beneitone, me gustaría hacerle una consulta sobre Odontologia General"],
     },
     {
-      name:"Implantes",
-      text : "Ayudamos en la recuperación de tus piezas perdidas, con la ayuda de equipamiento de última tecnología. Practicamos cirugías guiadas, previo a una planificación digital que permite resultados asegurados.",
-      img: 'img/specialties/sp2.jpg',
-      category: '',
-
-      treatments : [],
-      phone : [5491173606683],
-      phone_text : ["Hola Dr. Loccisano, me gustaría hacerle una consulta sobre Implantes"],
-    },
-    {
       name:"Endodoncia",
       text : "Utilizamos equipos tecnológicos de última generación, los tratamientos de conductos pueden dejar de ser un trauma gracias a la ayuda de nuestro especialista.",
-      img: 'img/specialties/sp3.jpg',
+      img: 'img/specialties/endodoncia.jpg',
       category: '',
 
       treatments : [
@@ -156,9 +146,33 @@ module.exports = {
       phone_text : ["Hola Dr. Nuñez, me gustaría hacerle una consulta sobre Endodoncia"],
     },
     {
+      name : "Prótesis",
+      text : "Queremos devolverle a tu sonrisa su anatomía y funciones perdidas. Nuestro sistema CAD CAM nos permite rehabilitaciones rápidas precisas y sumamente estéticas.",
+      img: 'img/specialties/protesis.jpg',
+      category: '',
+
+      treatments : [
+        'coronas de disilicato de litio',
+        'incristaciones de disilicato de litio',
+        'coronas de zafiro',
+      ],
+      phone : [5491173606683],
+      phone_text : ["Hola Dr. Loccisano, me gustaría hacerle una consulta sobre Prótesis"],
+    },
+    {
+      name:"Implantes",
+      text : "Ayudamos en la recuperación de tus piezas perdidas, con la ayuda de equipamiento de última tecnología. Practicamos cirugías guiadas, previo a una planificación digital que permite resultados asegurados.",
+      img: 'img/specialties/implantes.jpg',
+      category: '',
+
+      treatments : [],
+      phone : [5491173606683],
+      phone_text : ["Hola Dr. Loccisano, me gustaría hacerle una consulta sobre Implantes"],
+    },
+    {
       name:"Ortodoncia",
       text : "Mediante un novedoso sistema de ortodoncia invisibles o técnicas convencionales de ortodoncia fija con diversos materiales, ayudamos en la alineación y estética de tus dientes.",
-      img: 'img/specialties/sp4.jpg',
+      img: 'img/specialties/ortodoncia.jpg',
       category: '',
 
       treatments : [
@@ -171,23 +185,9 @@ module.exports = {
       phone_text : ["Hola Dra. Loccisano, me gustaría hacerle una consulta sobre Ortodoncia"],
     },
     {
-      name : "Prótesis",
-      text : "Queremos devolverle a tu sonrisa su anatomía y funciones perdidas. Nuestro sistema CAD CAM nos permite rehabilitaciones rápidas precisas y sumamente estéticas.",
-      img: 'img/specialties/sp5.jpg',
-      category: '',
-
-      treatments : [
-        'coronas de disilicato de litio',
-        'incristaciones de disilicato de litio',
-        'coronas de zafiro',
-      ],
-      phone : [5491173606683],
-      phone_text : ["Hola Dr. Loccisano, me gustaría hacerle una consulta sobre Prótesis"],
-    },
-    {
       name: "Odontopediatría",
       text : "Las primeras consultas de la vida de tus hijos son las más importantes.Por ello, trabajamos con amor, dedicación y contencíon de los mas chicos en beneficio a su salud bucal.",
-      img: 'img/specialties/sp3.jpg',
+      img: 'img/specialties/odontopediatria1.jpg',
       category: '',
 
       treatments : [],
@@ -197,7 +197,7 @@ module.exports = {
     {
       name: "Estética Dental",
       text : "Entendemos a tu sonrisa como tu carta de presentación, las primeras impresiones son unicas e irrepetibles. A partir de tratamientos individualizados vamos devolverte la confianza y esas ganas de sonreir que siempre deseaste.",
-      img: 'img/specialties/sp4.jpg',
+      img: 'img/specialties/estetica.jpg',
       category: '',
 
       treatments : [
@@ -246,16 +246,17 @@ module.exports = {
     {
       name: "Alineadores Invisibles",
       code: "ai",
-      img: "ai.jpg",
+      img: "ai2.jpg",
       parraphs: [
         "Estos procedimientos tienen la finalidad de mejorar la forma, tamaño y color de los dientes en armonía con tu sonrisa.",
-        "Contamos con equipamiento avanzado para planificar y recrerar digitalmente tu sonrisa, que nos ayuda a visualizar como quedará tu sonrisa luego del tratamiento elegido.",
+        "Contamos con equipamiento avanzado para planificar y recrerar digitalmente tu sonrisa, que nos ayuda a visualizar como quedará tu sonrisa luego del tratamiento elegido.",        
+        "¡QUEREMOS VERTE SONREIR!"
       ],
     },
     {
       name: "Impresión Digital 3D",
-      code: "id3d",
-      img: "id3d.jpg",
+      code: "id",
+      img: "id2.jpg",
       parraphs: [
         "Utilizamos una impresora 3D, como complemento ideal para el escaner intraoral.", 
         "Luego del escaneo imprimimos el modelo de tu boca, tanto para el diagnóstico como también para confeccionar los alineadores de ortodoncia y realizar el diseño digital de sonrisa.",
@@ -264,7 +265,7 @@ module.exports = {
     {
       name: "Escaneo Intraoral",
       code: "ei",
-      img: "ei.jpg",
+      img: "ei2.jpg",
       parraphs: [
         "La digitalización de tu boca mediante un escaner es el primer paso en tu tratamiento.",
         "Utilizamos un software de diseño informático que permite planificar y recrear digitalmente el tratamiento al que se va a someter al paciente.",

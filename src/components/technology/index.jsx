@@ -10,7 +10,7 @@ const Technology = () => {
                 <div className="outer-box clearfix">
                     <div className="container">
                         <div className="row" style={{justifyContent: "center"}}>
-                            <div className="col-lg-6 mb-5 text-center justify-content-center">
+                            <div className="col-lg-6 text-center justify-content-center">
                                 {/* <span className="section-sub-title d-block">Canales de atención</span> */}
                                 <h2 className="section-title" style={{maxWidth:"none"}}>Tecnología</h2>
                             </div>

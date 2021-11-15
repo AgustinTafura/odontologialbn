@@ -3,6 +3,8 @@ import './index.scss'
 import { carouselData } from "../../data";
 import { GlobalContext } from "../../context/GlobalContext";
 import { useContext } from "react";
+import { Parallax } from 'react-scroll-parallax';
+
 
 const Home = () => {
 
@@ -35,8 +37,10 @@ const Home = () => {
                                 </div>
                                 <div className="col-lg-2 ml-auto" data-aos={`${windowWidth >= 768 && "fade-up"}`}>
                                     <figure className="img-absolute">
-                                        <img src={`${process.env.PUBLIC_URL}/img/home/${el.image}`}
+                                        <Parallax className="" y={[0, 40]}  disabled={windowWidth > 992 && true}>
+                                            <img src={`${process.env.PUBLIC_URL}/img/home/${el.image}`}
                                             alt="LBN Odontología - centro odontológico CABA Buenos Aires Argentina" className="img-fluid" />
+                                        </Parallax>
                                     </figure>
                                 </div>
                             </div>
