@@ -49,10 +49,16 @@ const Navbar = () => {
         // avoid # in URL onClick in <a>
         document.querySelectorAll('a.nav-link, a.logo, a.btn-outline-light').forEach(el=>{
             el.addEventListener('click',(e)=>{
-                    if (el.hash.charAt(0) === "#") {
+                if (el.hash.charAt(0) === "#") {
                     e.preventDefault()
                     document.querySelector(el.hash).scrollIntoView()
-                    }
+                }      
+            })
+        })
+
+        document.querySelectorAll('.site-nav-wrap a.nav-link').forEach(el=>{
+            el.addEventListener('click',(e)=>{
+                toggleMobileMenu(e)
             })
         })
 
