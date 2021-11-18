@@ -55,7 +55,7 @@ const Footer = () => {
                                         </tr>
                                         <tr id="day-6">
                                             <td className="day">Sabado</td>
-                                            <td className="time">10 - 13 Hs</td>
+                                            <td className="time">CERRADO</td>
                                         </tr>
                                         <tr id="day-0">
                                             <td className="day">Domingo</td>
