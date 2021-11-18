@@ -18,14 +18,14 @@ module.exports = {
     {
       title: "Tecnología de última Generación",
       description: "Estamos en constante capacitación y adquisición de nuevas tecnologías para brindarte un servicio de calidad.",
-      image: "home.jpg",
+      image: "tecno.jpg",
       link: "saber más",
       href: "#technology-section"
     },
     {
       title:"Alineadores Invisibles Smile Makers",
       description: "Son férulas plásticas transparentes que alinean progresivamente tus dientes para ayudarte a lucir una sonrisa perfecta",
-      image: "team.jpg",
+      image: "smilemakers.jpg",
       link: "saber más",
       href: "https://www.instagram.com/smilemakers.arg/"
     }
