@@ -12,22 +12,22 @@ module.exports = {
       title:"Todas las Especialidades en LBN",
       description: "Estamos especilizados en todas las áreas odontológicas, ofreciéndote atención multidisciplinaria en el mismo lugar",
       image: "consultorio.jpg",
-      link: "especialidades",
-      href: "#especialidades"
-    },
-    {
-      title:"Alineadores Invisibles Smile Makers",
-      description: "Son férulas plásticas transparentes que alinean progresivamente tus dientes para ayudarte a lucir una sonrisa perfecta",
-      image: "team.jpg",
-      link: "tecnología",
-      href: "#tecnologia"
+      link: "saber más",
+      href: "#specialties-section"
     },
     {
       title: "Tecnología de última Generación",
       description: "Estamos en constante capacitación y adquisición de nuevas tecnologías para brindarte un servicio de calidad.",
       image: "home.jpg",
-      link: "",
-      href: ""
+      link: "saber más",
+      href: "#technology-section"
+    },
+    {
+      title:"Alineadores Invisibles Smile Makers",
+      description: "Son férulas plásticas transparentes que alinean progresivamente tus dientes para ayudarte a lucir una sonrisa perfecta",
+      image: "team.jpg",
+      link: "saber más",
+      href: "https://www.instagram.com/smilemakers.arg/"
     }
   ],
 

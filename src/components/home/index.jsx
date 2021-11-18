@@ -32,7 +32,7 @@ const Home = () => {
                                 <div className="col-lg-4 mr-auto " data-aos="fade-up" style={{zIndex:'10', minHeight: '385px'}}>
                                     <h1>{el.title}</h1>
                                     <p className="mb-5">{el.description}</p>
-                                    <p>{el.link && <a href="/" className="btn btn-outline-light py-3 px-5">{el.link}</a>}</p>
+                                    <p>{el.link && <a href={el.href} className="btn btn-outline-light py-3 px-5">{el.link}</a>}</p>
         
                                 </div>
                                 <div className="col-lg-2 ml-auto" data-aos={`${windowWidth >= 768 && "fade-up"}`}>
