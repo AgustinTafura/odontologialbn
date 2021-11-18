@@ -47,7 +47,7 @@ const Navbar = () => {
 
 
         // avoid # in URL onClick in <a>
-        document.querySelectorAll('a.nav-link').forEach(el=>{
+        document.querySelectorAll('a.nav-link, a.logo').forEach(el=>{
             el.addEventListener('click',(e)=>{
                     if (el.hash.charAt(0) === "#") {
                     e.preventDefault()
@@ -127,7 +127,7 @@ const Navbar = () => {
                     <div className="d-flex align-items-center">
                         <div className="site-logo">
 
-                            <a href="index.html"><img style={{width:'10rem'}}
+                            <a href="#home-section" className="logo"><img style={{width:'10rem'}}
                                     src={`${process.env.PUBLIC_URL}/${windowScrollY < 1 ? 'img/logo_lbn_w.png': 'img/logo_lbn_b.png'}`}
                                     alt='LBNodontologia Consultorio odontologico LBN - Villa Crespo, CABA. Argentina'></img></a>
                         </div>
