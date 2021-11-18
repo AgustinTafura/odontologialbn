@@ -47,7 +47,7 @@ const Navbar = () => {
 
 
         // avoid # in URL onClick in <a>
-        document.querySelectorAll('a.nav-link, a.logo').forEach(el=>{
+        document.querySelectorAll('a.nav-link, a.logo, a.btn-outline-light').forEach(el=>{
             el.addEventListener('click',(e)=>{
                     if (el.hash.charAt(0) === "#") {
                     e.preventDefault()
